@@ -6,11 +6,10 @@ The objective of this assignment is to introduce to you sorting algorithms. Sort
 
 To understand more: [Sorting Algorithms](https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/)
 
-There are three code challenges in this assignment.
+There are two code challenges in this assignment.
 
 1. [Code Challenge 1](./bubble-sort.js)
-2. [Code Challenge 2](./insertion-sort.js)
-3. [Code Challenge 3](./selection-sort.js)
+2. [Code Challenge 3](./selection-sort.js)
 
 Without modifying [index.js](./index.js), you should be able to run the file and see your answer in console.
 

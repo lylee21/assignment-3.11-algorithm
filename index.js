@@ -1,4 +1,3 @@
-const insertionSort = require("./insertion-sort");
 const selectionSort = require("./selection-sort");
 const bubbleSort = require("./bubble-sort");
 
@@ -6,9 +5,6 @@ const numberArray = Array.from({ length: 10 }, () =>
   Math.floor(Math.random() * 100)
 );
 console.log("Checking numberArray:", numberArray);
-
-const insertionSortedArray = insertionSort(numberArray);
-console.log("Checking insertionSortedArray:", insertionSortedArray);
 
 const selectionSortedArray = selectionSort(numberArray);
 console.log("Checking selectionSortedArray:", selectionSortedArray);
