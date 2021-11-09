@@ -9,7 +9,7 @@ To understand more: [Sorting Algorithms](https://www.freecodecamp.org/news/sorti
 There are two code challenges in this assignment.
 
 1. [Code Challenge 1](./bubble-sort.js)
-2. [Code Challenge 3](./selection-sort.js)
+2. [Code Challenge 2](./selection-sort.js)
 
 Without modifying [index.js](./index.js), you should be able to run the file and see your answer in console.
 
