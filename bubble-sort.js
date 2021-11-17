@@ -4,13 +4,25 @@
 
 function bubbleSort(array) {
   //implement code here
-  let toBeSortedArray = [];
+  let toBeSortedArray = array;
+  for (let i = 0; i < toBeSortedArray.length; i++) {    //O(N)
+    for (let j = 0; j < toBeSortedArray.length; j++) {  //O(N)
+      if (toBeSortedArray[j] > toBeSortedArray[j+1]) {  //O(NN)
+        let temp = toBeSortedArray[j];
+        toBeSortedArray[j] = toBeSortedArray[j+1];      
+        toBeSortedArray[j+1] = temp;
+      }
+    }
+  }
 
   return toBeSortedArray;
 }
+
+console.log(bubbleSort([35,15,10,25,20,30,5]));
+
 // Big O Notation
-// Worse Case: ?
+// Worse Case: O(NN)
 // Average Case: ?
-// Best Case: ?
+// Best Case: O(N)
 
 module.exports = bubbleSort;
